@@ -6,7 +6,8 @@ import Header from "./../components/Header";
 const PaymentScreen = ({ history }) => {
   window.scrollTo(0, 0);
 
-  const cart = useSelector((state) => state.cart);
+  const cart = useSelector(
+    (state) => state.cart);
   const { shippingAddress } = cart;
 
   if (!shippingAddress) {

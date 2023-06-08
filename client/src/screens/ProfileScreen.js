@@ -101,7 +101,10 @@ const ProfileScreen = () => {
               role="tabpanel"
               aria-labelledby="v-pills-profile-tab"
             >
-              <Orders orders={orders} loading={loading} error={error} />
+              <Orders 
+              orders={orders} 
+              loading={loading} 
+              error={error} />
             </div>
           </div>
         </div>

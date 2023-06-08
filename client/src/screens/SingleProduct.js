@@ -119,9 +119,7 @@ const SingleProduct = ({ history, match }) => {
                         <button
                           onClick={AddToCartHandle}
                           className="round-black-btn"
-                        >
-                          Add To Cart
-                        </button>
+                        > Add To Cart </button>
                       </>
                     ) : null}
                   </div>
