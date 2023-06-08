@@ -113,7 +113,7 @@ const OrderScreen = ({ match }) => {
                     ) : (
                       <div className="bg-danger p-2 col-12">
                         <p className="text-white text-center text-sm-start">
-                          Not Paid
+                          Pending
                         </p>
                       </div>
                     )}
@@ -146,7 +146,7 @@ const OrderScreen = ({ match }) => {
                     ) : (
                       <div className="bg-danger p-2 col-12">
                         <p className="text-white text-center text-sm-start">
-                          Not Delivered
+                          Pending
                         </p>
                       </div>
                     )}
@@ -204,7 +204,7 @@ const OrderScreen = ({ match }) => {
                     </tr>
                     <tr>
                       <td>
-                        <strong>Tax</strong>
+                        <strong>Discount</strong>
                       </td>
                       <td>${order.taxPrice}</td>
                     </tr>

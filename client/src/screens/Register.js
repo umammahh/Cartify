@@ -13,6 +13,7 @@ const Register = ({ location, history }) => {
   const [password, setPassword] = useState("");
 
   const dispatch = useDispatch();
+  //handling redirects
   const redirect = location.search ? location.search.split("=")[1] : "/";
 
   const userRegister = useSelector((state) => state.userRegister);
