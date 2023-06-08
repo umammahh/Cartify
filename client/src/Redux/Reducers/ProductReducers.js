@@ -9,7 +9,8 @@ import {
   PRODUCT_LIST_FAIL,
   PRODUCT_LIST_REQUEST,
   PRODUCT_LIST_SUCCESS,
-} from "../Constants/ProductConstants";
+} 
+from "../Constants/ProductConstants";
 
 // PRODUCT LIST
 export const productListReducer = (state = { products: [] }, action) => {

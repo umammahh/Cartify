@@ -13,7 +13,8 @@ import {
   USER_UPDATE_PROFILE_FAIL,
   USER_UPDATE_PROFILE_REQUEST,
   USER_UPDATE_PROFILE_SUCCESS,
-} from "../Constants/UserContants";
+} 
+from "../Constants/UserContants";
 
 // LOGIN
 export const userLoginReducer = (state = {}, action) => {
