@@ -33,6 +33,7 @@ const Footer = () => {
             alt="discover"
             src="https://icons-for-free.com/iconfiles/png/512/cash+checkout+discover+network+online+shopping+payment+method-1320191225548835050.png"
           />
+          
         </div>
       </div>
     </div>
